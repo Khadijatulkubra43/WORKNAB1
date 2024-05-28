@@ -1,0 +1,123 @@
+.post h2{
+    color: rgb(165, 154, 154);
+    font-size: 30px;
+    text-align: center;
+}
+.post h3{
+    color: grey;
+    font-size: 25px;
+    text-align: center;
+}
+.post p{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    text-align: center;
+    font-style: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.post{
+    align-items: center;
+
+}
+.post h2 {
+    color: rgb(165, 154, 154);
+    font-size: 30px;
+    text-align: center;
+}
+
+.post h3 {
+    color: grey;
+    font-size: 25px;
+    text-align: center;
+}
+
+.post p {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    text-align: center;
+    font-style: italic; /* Removed duplicate 'font-style' and added 'italic' */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.post {
+    align-items: center;
+    margin-left: 10%;
+}
+
+.sign input, .yesno input, .agree input, .laborrate input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+}
+
+.yesno p, .agree p {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.laborrate table{
+    margin-left: 15%;
+}
+.laborrate table {
+    width: 70%;
+    height: 50px;
+    border-collapse: collapse;
+}
+
+.laborrate th, .laborrate td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.laborrate th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.laborrate .summary div {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.first-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.first-btn:hover {
+    background-color: #45a049;
+}
+
+.login {
+    text-align: center;
+    font-size: 16px;
+}
+
+.login span {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.firstbtn{
+    margin-left: 40%;
+    width: 220px;
+    height: 35px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 20px;
+}

@@ -1,0 +1,18 @@
+.bttn .btun{
+    width: 150px;
+    height: 30px;
+    border: none;
+    background-color: rgb(241, 35, 35);
+    /* margin-left: 30%; */
+}
+.bttn .bton{
+    width: 150px;
+    height: 30px;
+    border: none;
+    background-color: gray;
+    margin-left: 75%;
+}
+.bttn{
+    display: flex;
+    justify-content: space-between;
+}

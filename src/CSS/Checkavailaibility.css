@@ -1,0 +1,41 @@
+.check{
+    width: 650px;
+    height: 600px;
+    align-items: center;
+    text-align: center;
+    margin-left: 30%;
+    
+}
+.check p{
+    align-items: center;
+    text-align: center;
+    font-size: 15px
+}
+.checkin{
+    display: inline-block;
+}
+.checkin input{
+    width: 220px;
+    height: 20px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+}
+.checkin label{
+    font-size: 15px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sec-btn{
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 25px;
+    margin-left: 10%;
+}
+.logo11 p{
+    margin-right: 80%;
+}
+.final{
+    color: white;
+}

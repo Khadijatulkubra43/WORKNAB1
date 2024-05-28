@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin-top: -7%;
+
+}
+
+.navbar a {
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar ul li a:after,
+.navbar ul li a:before {
+    transition: all .5s;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #aaa;
+    height: 1px;
+}
+
+.navbar ul li a:hover {
+    color: #f30808bb;
+    width: 100%;
+}
+
+.footer {
+    width: 1932px;
+    height: 382px;
+    top: 5137px;
+    gap: 0px;
+    opacity: 0px;
+    background: #282727BD;
+    color: white;
+
+}
+
+.footer-text {
+    float: left;
+    margin-top: 100px;
+}
+
+.social-links {
+    display: flex;
+    float: left;
+    gap: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links a, .footer-links a {
+    color: #fff;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.social-links a:hover, .footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-second {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.footer-second a {
+    color: #fff;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.final {
+    margin-top: 200px;
+    margin-left: 40%;
+}
+
+.profile img {
+    width: 154px;
+    height: 154px;
+    top: 1221px;
+    gap: 0px;
+    border: 10px 0px 0px 0px;
+    opacity: 0px;
+    border-radius: 50%;
+    border-image-source: linear-gradient(184.42deg, #FF385C 41.06%, #5F5F5F 73.4%);
+    margin-left: 25%;
+    margin-top: 5%;
+    float: left;
+
+
+}
+
+/* .profile h3 {
+    font-family: Lexend;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 62.5px;
+    color: #5F5F5F;
+    margin-left: 35%;
+}
+
+.profile h4 {
+    font-family: Inika;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 39.09px;
+    color: #FF385C;
+    margin-left: 35%;
+
+
+
+}
+
+.profile span {
+    font-family: Inika;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 39.09px;
+    color: black;
+
+}
+
+.profile p {
+    font-family: Lexend;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #5F5F5F;
+    margin-left: 35%;
+   
+
+} */
+
+.logo1 img {
+    margin-left: 40%;
+}
+
+.logo1 p {
+    margin-left: 42%;
+}
+
+.form-container {
+    align-items: center;
+    margin-left: 40%;
+}
+
+.form-group label {
+    font-family: Lexend;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 31.25px;
+    text-align: left;
+    color: #5F5F5F;
+
+}
+
+.form-group input {
+    width: 200px;
+    height: 30px;
+    top: 1769px;
+    left: 750px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.profile-content {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adjust as needed for spacing between image and text */
+}
+
+.profile img {
+    width: 154px;
+    height: 154px;
+    border-radius: 50%;
+    border: 10px solid transparent; /* Use solid border for effect */
+    border-image-source: linear-gradient(184.42deg, #FF385C 41.06%, #5F5F5F 73.4%);
+    border-image-slice: 1;
+    margin-left: 25%;
+    margin-top: 5%;
+    /* Remove these styles if no longer needed */
+    /* top: 1221px; */
+    /* left: 301px; */
+    /* gap: 0px; */
+    /* opacity: 0px; */
+}
+
+.profile-text {
+    margin-right: 40%;
+    
+}
+
+.profile h3 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 62.5px;
+    color: #5F5F5F;
+    /* Remove margin-left for better alignment */
+    /* margin-left: 35%; */
+}
+
+.profile h4 {
+    font-family: 'Inika', serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 39.09px;
+    color: #FF385C;
+    /* Remove margin-left for better alignment */
+    /* margin-left: 35%; */
+}
+
+.profile span {
+    font-family: 'Inika', serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 39.09px;
+    color: black;
+}
+
+.profile p {
+    font-family: 'Lexend', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #5F5F5F;
+    /* Remove margin-left for better alignment */
+    /* margin-left: 35%; */
+}
+.profile-text h3{
+    text-align: center;
+}

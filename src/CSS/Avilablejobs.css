@@ -1,0 +1,95 @@
+.cards {
+    display: inline-block;
+    border-radius: 25px;
+    margin-left: 8%;
+    width: 1504px;
+    height: 157px;
+    top: 1518px;
+    left: 208px;
+    gap: 0px;
+    border-radius: 25px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.img {
+    float: left;
+}
+
+.img {
+    width: 200px;
+    border-radius: 25px;
+}
+
+.cards1 {
+    display: inline-block;
+    border-radius: 25px;
+    margin-left: 8%;
+    width: 1504px;
+    height: 157px;
+    top: 1924px;
+    left: 208px;
+    gap: 0px;
+    border-radius: 25px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.cards2 {
+    display: inline-block;
+    border-radius: 25px;
+    margin-left: 8%;
+    width: 1504px;
+    height: 157px;
+    top: 2330px;
+    left: 208px;
+    gap: 0px;
+    border-radius: 25px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.jobs {
+    width: 1519px;
+    height: 97px;
+    top: 1289px;
+    left: 200px;
+    gap: 0px;
+    border-radius: 137px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.jobs h2 {
+    width: 329px;
+    height: 58px;
+    top: 1131px;
+    left: 796px;
+    gap: 0px;
+    opacity: 0px;
+    color: #3C3C3C;
+    margin-left: 30%;
+
+}
+.search {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    border: 2px solid rgb(226, 197, 197);
+    border-radius: 25px;
+    width: 750px;
+    height: 40px;
+    margin-left: 25%;
+    text-align: center;
+    align-items: center;
+
+}
+.btn{
+    width: 100px;
+    height: 25px;
+    background-color: red;
+    color: white;
+    border: red;
+    margin-left: 50%;
+}

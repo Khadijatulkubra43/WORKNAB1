@@ -1,0 +1,119 @@
+.registration {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registration h3 {
+    text-align: center;
+}
+
+.registration hr {
+    margin: 20px 0;
+}
+
+form {
+    display: inline;
+    justify-content: space-between;
+}
+
+form label, form input, form select, form button, form p {
+    flex: 1 1 48%;
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"], 
+form input[type="email"], 
+form input[type="password"], 
+form select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+form .login {
+    text-align: center;
+    flex: 1 1 100%;
+    margin-top: 20px;
+}
+
+form .login span {
+    color: #007BFF;
+    cursor: pointer;
+}
+
+form .login span:hover {
+    text-decoration: underline;
+}
+.Signup input{
+    margin-left: 20%;
+}
+.label2 span{
+    color: rgb(228, 84, 84);
+}
+.first-btn{
+    background-color: rgb(202, 26, 26);
+    color: white;
+    width: 500px;
+    border: none;
+    font-size: 20px;
+    margin-left: 10%;
+}
+.login span{
+    color: #0056b3;
+    font-size: 22px;
+}
+.login{
+    margin-left: 25%;
+    font-size: 20px;
+}
+.sign input{
+    width: 450px;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+}
+#hear{
+    width: 150px;
+    background-color: rgb(218, 212, 206);
+    color: gray;
+    border: none;
+    border-radius: 20px;
+}
+.yesno label{
+    font-size: 20px;
+    margin-right: 50%;
+}
+.agree{
+    font-size: 20px;
+    
+}
