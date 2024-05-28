@@ -8,7 +8,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 My WORKNAB React Project with Vite
-Welcome to the My Awesome React Project! This project uses Vite as the build tool for a fast and optimized development experience.
+Welcome to the my React Project! This project uses Vite as the build tool for a fast and optimized development experience.
 
 1.Table of Contents
 2.Introduction
