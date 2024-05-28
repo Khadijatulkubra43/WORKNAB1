@@ -38,8 +38,6 @@ Installation
 Clone the Repository:
 
 bash
-Copy code
-git clone https://github.com/yourusername/my-awesome-react-project.git
 cd my-awesome-react-project
 Install Dependencies:
 
